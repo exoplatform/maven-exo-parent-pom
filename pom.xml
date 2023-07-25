@@ -90,6 +90,23 @@
     <!-- **************** -->
     <!-- Plugins versions -->
     <!-- **************** -->
-
+    <version.javacc.plugin>2.6</version.javacc.plugin>
+    <version.rar.plugin>2.4</version.rar.plugin>
   </properties>
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>javacc-maven-plugin</artifactId>
+          <version>${version.javacc.plugin}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-rar-plugin</artifactId>
+          <version>${version.rar.plugin}</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
 </project>
