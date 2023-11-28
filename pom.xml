@@ -4,12 +4,12 @@
   <parent>
     <artifactId>maven-parent-pom</artifactId>
     <groupId>org.exoplatform</groupId>
-    <version>26-exo-M04</version>
+    <version>26-exo-RC01</version>
     <relativePath />
   </parent>
   <groupId>org.exoplatform</groupId>
   <artifactId>maven-exo-parent-pom</artifactId>
-  <version>26-SNAPSHOT</version>
+  <version>27-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>eXo PLF:: eXo Platform Parent POM</name>
   <description>Provides default project configuration for eXo projects</description>
