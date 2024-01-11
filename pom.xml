@@ -9,7 +9,7 @@
   </parent>
   <groupId>org.exoplatform</groupId>
   <artifactId>maven-exo-parent-pom</artifactId>
-  <version>27-SNAPSHOT</version>
+  <version>27-M02</version>
   <packaging>pom</packaging>
   <name>eXo PLF:: eXo Platform Parent POM</name>
   <description>Provides default project configuration for eXo projects</description>
@@ -38,7 +38,7 @@
   <scm>
     <connection>scm:git:git://github.com/exoplatform/maven-exo-parent-pom.git</connection>
     <developerConnection>scm:git:git@github.com:exoplatform/maven-exo-parent-pom.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>27-M02</tag>
     <url>https://fisheye.exoplatform.org/browse/maven-exo-parent-pom</url>
   </scm>
   <issueManagement>
@@ -64,7 +64,7 @@
     </site>
   </distributionManagement>
   <properties>
-    <argLine></argLine>
+    <argLine />
     <exo.product.name>${project.name}</exo.product.name>
     <!-- **************************************** -->
     <!-- Jira Settings                            -->
