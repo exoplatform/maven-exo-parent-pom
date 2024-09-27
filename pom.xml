@@ -109,4 +109,44 @@
       </plugins>
     </pluginManagement>
   </build>
+  <profiles>
+    <profile>
+      <activation>
+        <property>
+          <name>packaging</name>
+          <value>jar</value>
+        </property>
+        <file>
+          <missing>src/main/resources/no-aop</missing>
+        </file>
+      </activation>
+      <dependencies>
+        <dependency>
+          <groupId>io.meeds.social</groupId>
+          <artifactId>social-component-api</artifactId>
+          <scope>provided</scope>
+        </dependency>
+      </dependencies>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>aspectj-maven-plugin</artifactId>
+            <configuration>
+              <aspectLibraries>
+                <aspectLibrary>
+                  <groupId>io.meeds.portal</groupId>
+                  <artifactId>portal.component.common</artifactId>
+                </aspectLibrary>
+                <aspectLibrary>
+                  <groupId>io.meeds.social</groupId>
+                  <artifactId>social-component-api</artifactId>
+                </aspectLibrary>
+              </aspectLibraries>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
 </project>
