@@ -4,12 +4,12 @@
   <parent>
     <artifactId>maven-parent-pom</artifactId>
     <groupId>io.meeds</groupId>
-    <version>30-M01</version>
+    <version>30-security-fix-SNAPSHOT</version>
     <relativePath />
   </parent>
   <groupId>org.exoplatform</groupId>
   <artifactId>maven-exo-parent-pom</artifactId>
-  <version>30-SNAPSHOT</version>
+  <version>30-security-fix-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>eXo PLF:: eXo Platform Parent POM</name>
   <description>Provides default project configuration for eXo projects</description>
