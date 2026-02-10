@@ -4,7 +4,7 @@
   <parent>
     <artifactId>maven-parent-pom</artifactId>
     <groupId>io.meeds</groupId>
-    <version>29-M01</version>
+    <version>29-M02</version>
     <relativePath />
   </parent>
   <groupId>org.exoplatform</groupId>
