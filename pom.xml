@@ -90,7 +90,7 @@
     <!-- **************** -->
     <!-- Plugins versions -->
     <!-- **************** -->
-    <version.javacc.plugin>2.6</version.javacc.plugin>
+    <version.javacc.plugin>3.1.0</version.javacc.plugin>
     <version.rar.plugin>2.4</version.rar.plugin>
   </properties>
   <build>
